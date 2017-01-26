@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: lightblue;
+}
+
+#left_header {
+
+  float: left;
+}
+
+#left_header h1 {
+  background: #3399ff;
+  color: white;
+  padding: 27px 70px;
+  margin: 0 70px;
+  font-size: 20px;
+  letter-spacing: 15px;
+  word-spacing: 20px;
+
+}
+
+nav {
+  float: right;
+  margin-right: 30px;
+}
+
+nav ul li {
+  float: left;
+  list-style-type: none;
+  background: lightblue;
+  padding: 30px 60px;
+  color: white;
+  transition: background 1s, color 1s;
+  letter-spacing: 10px;
+}
+
+nav ul li:hover {
+  background: #3399ff;
+  cursor: pointer;
+}
